@@ -1,0 +1,5 @@
+# Schema for the configuration files of the MBER Earth theme.
+
+mberearth.settings:
+  type: theme_settings
+  label: 'MBER Earth settings'

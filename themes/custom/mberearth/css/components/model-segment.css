@@ -1,0 +1,21 @@
+.container__grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.grid__left {
+  grid-column: 1;
+  place-self: center;
+  padding: 0 2em;
+  text-align: center;
+}
+
+.grid__right {
+  grid-column: 2;
+  align-self: center;
+  margin-bottom: 3em;
+  padding: 0 2em 0 3em;
+  border-left: solid 2px black;
+}
+
+

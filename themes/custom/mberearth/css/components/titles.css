@@ -1,0 +1,9 @@
+.title--model-triangle {
+  margin: 0 25% 0 25%;
+  padding: 1em;
+  /*font-size: 2em;*/
+  color: black;
+  text-align: center;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}

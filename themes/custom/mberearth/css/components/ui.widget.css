@@ -1,0 +1,8 @@
+/**
+ * @file
+ * Visual styles for MBER Earth's ui-widget component.
+ */
+
+#page .ui-widget {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,48 @@
+.phenomenon--model-triangle {
+  max-width: 50%;
+  padding: 0 1em;
+  margin-bottom: 2em;
+  float: left;
+}
+
+.change-text__upper {
+  text-transform: uppercase;
+}
+
+.change-text__italics {
+  font-style: italic;
+}
+
+.model-ideas--model-triangle {
+  max-width: 70%;
+  margin: 0 15% 2em 15%;
+  padding: 0 1em;
+  /*float: left;*/
+  clear: both;
+}
+
+.overview--model-triangle {
+  max-width: 90%;
+  margin: 0 5% 2em 5%;
+  padding: 0 1em;
+  /*float: left;*/
+}
+
+.date-range--model-triangle {
+  margin: 0 25% 2em 25%;
+  padding: 0 1em;
+  text-align: center;
+  /*float: left;*/
+}
+
+.download--model-triangle {
+  margin: 0 25% 2em 25%;
+  padding: 0 1em;
+  text-align: center;
+  /*float: left;*/
+}
+
+.estimated-time--model-triangle {
+  font-size: 2em;
+  color: #17649A;
+}
