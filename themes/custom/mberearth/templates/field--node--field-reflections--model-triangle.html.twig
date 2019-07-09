@@ -25,12 +25,12 @@
     'field--name-' ~ field_name|clean_class,
     'field--type-' ~ field_type|clean_class,
     'field--label-' ~ label_display,
-    'date-range--model-triangle',
+    'model-ideas--model-triangle',
 ]
 %}
-
 {% for item in items %}
   <div{{ attributes.addClass(classes, 'field__item') }}>
-    <p>{{ item.content }}</p>
+    <h3 class="change-text__upper">{{ label }}</h3>
+    {{ item.content }}
   </div>
 {% endfor %}

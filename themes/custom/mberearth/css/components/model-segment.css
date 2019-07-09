@@ -1,6 +1,6 @@
 .container__grid {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 35% 65%;
 }
 
 .grid__left {
@@ -18,4 +18,15 @@
   border-left: solid 2px black;
 }
 
-
+.learning-segment-title--model-triangle {
+  color: green;
+  margin: 1em 5%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 1.092em;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+  padding: 1em;
+  line-height: 1.092em;
+  text-align: center;
+}

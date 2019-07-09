@@ -46,14 +46,6 @@ view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
 not paragraph.isPublished() ? 'paragraph--unpublished'
 ]
 %}
-{#{% block paragraph %}#}
-  {#<div{{ attributes.addClass(classes) }}>#}
-    {#{% block content %}#}
-      {#{{ content }}#}
-    {#{% endblock %}#}
-  {#</div>#}
-{#{% endblock paragraph %}#}
-
 
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
@@ -66,7 +58,7 @@ not paragraph.isPublished() ? 'paragraph--unpublished'
           {{ content.field_resources_segment }}
         </div>
         <span class="grid__right">
-          <span class="change-text__upper">{{ content.field_model_move }}</span>
+          <span class="change-text__upper">{{ content.field_model_move.label }}</span>
           <strong>{{ content.field_segment_description }}</strong>
           <span class="change-text__italics">{{ content.field_what_we_learned }}</span>
           {{ content.field_student_work }}

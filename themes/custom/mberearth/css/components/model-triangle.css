@@ -1,8 +1,8 @@
 .phenomenon--model-triangle {
   max-width: 50%;
   padding: 0 1em;
-  margin-bottom: 2em;
-  float: left;
+  margin: 0 5% 2em 0;
+  float: right;
 }
 
 .change-text__upper {
@@ -15,34 +15,49 @@
 
 .model-ideas--model-triangle {
   max-width: 70%;
-  margin: 0 15% 2em 15%;
+  margin: 0 15% 3em 15%;
   padding: 0 1em;
-  /*float: left;*/
   clear: both;
 }
 
 .overview--model-triangle {
   max-width: 90%;
-  margin: 0 5% 2em 5%;
+  margin: 0 5% 3em 5%;
   padding: 0 1em;
-  /*float: left;*/
 }
 
 .date-range--model-triangle {
-  margin: 0 25% 2em 25%;
+  margin: 0 15% 2em 15%;
   padding: 0 1em;
   text-align: center;
-  /*float: left;*/
+  font-size: 1.5em;
+  color: #17649A;
 }
 
 .download--model-triangle {
-  margin: 0 25% 2em 25%;
+  margin: 0 25% 3em 25%;
   padding: 0 1em;
   text-align: center;
-  /*float: left;*/
 }
 
 .estimated-time--model-triangle {
   font-size: 2em;
   color: #17649A;
+}
+
+.student-work--model-triangle {
+  width: 100%;
+  float: left;
+  position: relative;
+  display: block;
+}
+
+.pqm-image--model-triangle {
+  /*display: grid;*/
+  /*grid-template-columns: 100%;*/
+  max-width: 35%;
+  float: left;
+  /*text-align: center;*/
+  /*align-self: center;*/
+  padding: 0 0 0 5%;
 }
