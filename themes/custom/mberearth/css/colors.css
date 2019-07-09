@@ -15,7 +15,8 @@ body {
 }
 .tabs ul.primary li.is-active a {
   background-color: #fff;
-  border-bottom-color: #fff;
+  border-bottom-color: #bbb;
+  border: 2px solid green;
 }
 #header {
   background-color: #1d84c3;

@@ -1,21 +1,22 @@
 .container__grid {
   display: grid;
   grid-template-columns: 35% 65%;
+  margin-bottom: 3em;
 }
 
 .grid__left {
   grid-column: 1;
-  place-self: center;
   padding: 0 2em;
   text-align: center;
+  border-right: solid 2px black;
 }
 
 .grid__right {
   grid-column: 2;
   align-self: center;
-  margin-bottom: 3em;
   padding: 0 2em 0 3em;
-  border-left: solid 2px black;
+  /*border-left: solid 2px black;*/
+  /*border-bottom: solid 2px black;*!*/
 }
 
 .learning-segment-title--model-triangle {

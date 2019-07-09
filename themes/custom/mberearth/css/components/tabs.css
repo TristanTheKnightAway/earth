@@ -1,24 +1,25 @@
 /* --------------- System Tabs  --------------- */
 
 div.tabs {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Condensed","Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 20px;
 }
 .tabs ul.primary {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Condensed","Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 .tabs ul.primary li a {
   color: #000;
   background-color: #ededed;
   border-color: #bbb;
-  border-style: solid solid none solid;
-  border-width: 1px;
+  border-style: solid;
+  border-width: 2px;
   height: 1.8em;
   line-height: 1.9;
   display: block;
   font-size: 0.929em;
   padding: 0 10px 3px;
-  text-shadow: 0 1px 0 #fff;
+  /*text-shadow: 0 1px 0 #fff;*/
 }
 .tabs ul.primary li.is-active a {
   background-color: #fff;
@@ -28,6 +29,8 @@ div.tabs {
 @media screen and (max-width: 37.5em) { /* 600px */
   .tabs ul.primary {
     border-bottom: 1px solid #bbb;
+    margin: 0 15%;
+
   }
   .tabs ul.primary li {
     display: block;
@@ -47,10 +50,10 @@ div.tabs {
     height: auto;
     line-height: normal;
     padding: 0 3px;
-    margin: 0;
     overflow: hidden;
     border: none;
-    background: transparent url(../../images/tabs-border.png) repeat-x left bottom;
+    margin: 0 25%;
+    /*background: transparent url(../../images/tabs-border.png) repeat-x left bottom;*/
     white-space: nowrap;
   }
   .tabs ul.primary li {
@@ -65,11 +68,11 @@ div.tabs {
   }
   .tabs ul.primary li a {
     float: left; /* not LTR */
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+    /*border-top-left-radius: 6px;*/
+    /*border-top-right-radius: 6px;*/
   }
   .tabs ul.primary li.is-active a {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #bbb;
   }
 }
 .tabs ul.secondary {
@@ -110,5 +113,5 @@ div.tabs {
 .tabs ul.secondary li a.is-active {
   background: #f2f2f2;
   border-bottom: none;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
 }

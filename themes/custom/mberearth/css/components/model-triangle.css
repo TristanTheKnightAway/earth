@@ -43,6 +43,7 @@
 .estimated-time--model-triangle {
   font-size: 2em;
   color: #17649A;
+  clear: both;
 }
 
 .student-work--model-triangle {
@@ -53,11 +54,17 @@
 }
 
 .pqm-image--model-triangle {
-  /*display: grid;*/
-  /*grid-template-columns: 100%;*/
   max-width: 35%;
   float: left;
-  /*text-align: center;*/
-  /*align-self: center;*/
   padding: 0 0 0 5%;
+}
+
+.model-move--model-triangle {
+  width: 100%;
+}
+
+.model-move--model-triangle h3{
+  margin-top: 0;
+  border: none;
+  padding: none;
 }
