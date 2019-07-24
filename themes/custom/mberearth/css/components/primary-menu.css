@@ -111,7 +111,8 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
 /**
  * Media queries for primary menu.
  */
-@media all and (min-width: 461px) and (max-width: 900px) {
+@media all and (min-width: 461px) {
+  /*@media all and (min-width: 461px) and (max-width: 900px) {*/
   .region-primary-menu .menu {
     margin: 0 5px;
     padding: 0;
@@ -160,46 +161,46 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
   }
 }
 
-@media all and (min-width: 901px) {
-  .region-primary-menu .block-menu .menu {
-    font-size: 0.929em;
-    margin: 0;
-    padding: 0 15px;
-  }
-  .region-primary-menu .menu-item,
-  body:not(:target) .region-primary-menu .menu-item {
-    float: left; /* LTR */
-    list-style: none;
-    padding: 0 1px;
-    margin: 0 1px;
-    width: auto;
-    height: auto;
-    overflow: visible;
-  }
-  [dir="rtl"] .region-primary-menu .menu-item,
-  [dir="rtl"] body:not(:target) .region-primary-menu .menu-item {
-    float: right;
-  }
-  .region-primary-menu .menu a {
-    float: left; /* LTR */
-    padding: 0.7em 0.8em;
-    margin-bottom: 0;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-  [dir="rtl"] .region-primary-menu .menu a {
-    float: right;
-    padding: 0.7em 0.8em;
-  }
-  .featured .region-primary-menu .menu-item a:active,
-  .featured .region-primary-menu .menu-item a.is-active {
-    background: #f0f0f0;
-    background: rgba(240, 240, 240, 1);
-  }
-  body:not(:target) .region-primary-menu .menu-toggle {
-    display: none;
-  }
-}
+/*@media all and (min-width: 901px) {*/
+  /*.region-primary-menu .block-menu .menu {*/
+    /*font-size: 0.929em;*/
+    /*margin: 0;*/
+    /*padding: 0 15px;*/
+  /*}*/
+  /*.region-primary-menu .menu-item,*/
+  /*body:not(:target) .region-primary-menu .menu-item {*/
+    /*float: left; !* LTR *!*/
+    /*list-style: none;*/
+    /*padding: 0 1px;*/
+    /*margin: 0 1px;*/
+    /*width: auto;*/
+    /*height: auto;*/
+    /*overflow: visible;*/
+  /*}*/
+  /*[dir="rtl"] .region-primary-menu .menu-item,*/
+  /*[dir="rtl"] body:not(:target) .region-primary-menu .menu-item {*/
+    /*float: right;*/
+  /*}*/
+  /*.region-primary-menu .menu a {*/
+    /*float: left; !* LTR *!*/
+    /*padding: 0.7em 0.8em;*/
+    /*margin-bottom: 0;*/
+    /*border-bottom-left-radius: 0;*/
+    /*border-bottom-right-radius: 0;*/
+  /*}*/
+  /*[dir="rtl"] .region-primary-menu .menu a {*/
+    /*float: right;*/
+    /*padding: 0.7em 0.8em;*/
+  /*}*/
+  /*.featured .region-primary-menu .menu-item a:active,*/
+  /*.featured .region-primary-menu .menu-item a.is-active {*/
+    /*background: #f0f0f0;*/
+    /*background: rgba(240, 240, 240, 1);*/
+  /*}*/
+  /*body:not(:target) .region-primary-menu .menu-toggle {*/
+    /*display: none;*/
+  /*}*/
+/*}*/
 
 /**
  * Ensures that the open mobile menu hides when the screen dimensions become

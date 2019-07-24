@@ -6,6 +6,7 @@
 .site-footer {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 35px 0 30px;
+  background-image: url(../../images/seashells-on-sand.jpg);
 }
 .site-footer .layout-container {
   padding: 0 15px;
@@ -229,4 +230,9 @@
  */
 [dir="rtl"] .site-footer__bottom .menu-item:first-child:last-child a {
   padding-right: 0;
+}
+
+
+.footer--image {
+  background-image: url(../../images/seashells-on-sand.jpg);
 }

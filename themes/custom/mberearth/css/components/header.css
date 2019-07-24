@@ -201,3 +201,8 @@
 [dir="rtl"] .region-header #block-user-login .item-list li {
   float: right;
 }
+
+.header--image {
+  background-image: url(../../images/forest-sunlight-2.jpg);
+  width: 100%;
+}

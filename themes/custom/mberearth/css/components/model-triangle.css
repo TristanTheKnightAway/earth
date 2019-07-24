@@ -1,9 +1,4 @@
-.phenomenon--model-triangle {
-  max-width: 50%;
-  padding: 0 1em;
-  margin: 0 5% 2em 0;
-  float: right;
-}
+/* Any classes that are not screen-width dependent */
 
 .change-text__upper {
   text-transform: uppercase;
@@ -13,58 +8,157 @@
   font-style: italic;
 }
 
-.model-ideas--model-triangle {
-  max-width: 70%;
-  margin: 0 15% 3em 15%;
-  padding: 0 1em;
-  clear: both;
-}
-
-.overview--model-triangle {
-  max-width: 90%;
-  margin: 0 5% 3em 5%;
-  padding: 0 1em;
-}
-
-.date-range--model-triangle {
-  margin: 0 15% 2em 15%;
-  padding: 0 1em;
-  text-align: center;
-  font-size: 1.5em;
-  color: #17649A;
-}
-
-.download--model-triangle {
-  margin: 0 25% 3em 25%;
-  padding: 0 1em;
+.circle-crop {
+  clip-path: circle(120px at center);
+  -webkit-clip-path: circle(160px at center);
   text-align: center;
 }
 
-.estimated-time--model-triangle {
-  font-size: 2em;
-  color: #17649A;
-  clear: both;
+.text__center {
+  text-align: center;
 }
 
-.student-work--model-triangle {
-  width: 100%;
-  float: left;
-  position: relative;
-  display: block;
+
+/* For small screens up to 1136 pixels wide */
+
+@media (max-width: 1136px) {
+
+  .node .field--type-image {
+    clear: both;
+    text-align: center;
+  }
+
+  .phenomenon--model-triangle {
+    max-width: 90%;
+    padding: 0 1em;
+    margin: 0 5% 2em 5%;
+    clear: both;
+  }
+
+  .model-ideas--model-triangle {
+    max-width: 90%;
+    margin: 0 5% 3em 5%;
+    padding: 0 1em;
+    clear: both;
+  }
+
+  .overview--model-triangle {
+    max-width: 90%;
+    margin: 0 5% 3em 5%;
+    padding: 0 1em;
+  }
+
+  .date-range--model-triangle {
+    margin: 0 5% 2em 5%;
+    padding: 0 1em;
+    text-align: center;
+    font-size: 1.5em;
+    color: #17649A;
+  }
+
+  .download--model-triangle {
+    margin: 0 10% 3em 10%;
+    padding: 0 1em;
+    text-align: center;
+  }
+
+  .estimated-time--model-triangle {
+    font-size: 2em;
+    color: #17649A;
+    clear: both;
+  }
+
+  .student-work--model-triangle {
+    width: 100%;
+    float: left;
+    position: relative;
+    display: block;
+  }
+
+  .pqm-image--model-triangle {
+    max-width: 90%;
+    clear: both;
+    padding: 0 0 0 5%;
+    text-align: center;
+  }
+
+  .model-move--model-triangle {
+    width: 100%;
+  }
+
+  .model-move--model-triangle h3 {
+    margin-top: 0;
+    border: none;
+    padding: none;
+  }
 }
 
-.pqm-image--model-triangle {
-  max-width: 35%;
-  float: left;
-  padding: 0 0 0 5%;
+
+/* For screens larger than 1136 pixels wide */
+
+@media (min-width: 1137px) {
+
+  .phenomenon--model-triangle {
+    max-width: 50%;
+    padding: 0 1em;
+    margin: 0 5% 2em 0;
+    float: right;
+  }
+
+  .model-ideas--model-triangle {
+    max-width: 70%;
+    margin: 0 15% 3em 15%;
+    padding: 0 1em;
+    clear: both;
+  }
+
+  .overview--model-triangle {
+    max-width: 90%;
+    margin: 0 5% 3em 5%;
+    padding: 0 1em;
+  }
+
+  .date-range--model-triangle {
+    margin: 0 15% 2em 15%;
+    padding: 0 1em;
+    text-align: center;
+    font-size: 1.5em;
+    color: #17649A;
+  }
+
+  .download--model-triangle {
+    margin: 0 25% 3em 25%;
+    padding: 0 1em;
+    text-align: center;
+  }
+
+  .estimated-time--model-triangle {
+    font-size: 2em;
+    color: #17649A;
+    clear: both;
+  }
+
+  .student-work--model-triangle {
+    width: 100%;
+    float: left;
+    position: relative;
+    display: block;
+  }
+
+  .pqm-image--model-triangle {
+    max-width: 35%;
+    float: left;
+    padding: 0 0 0 5%;
+  }
+
+  .model-move--model-triangle {
+    width: 100%;
+  }
+
+  .model-move--model-triangle h3 {
+    margin-top: 0;
+    border: none;
+    padding: none;
+  }
 }
 
-.model-move--model-triangle {
-  width: 100%;
-}
-
-.model-move--model-triangle h3{
-  margin-top: 0;
-  border: none;
-  padding: none;
-}

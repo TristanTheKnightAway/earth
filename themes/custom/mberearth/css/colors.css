@@ -19,9 +19,11 @@ body {
   border: 2px solid green;
 }
 #header {
-  background-color: #1d84c3;
-  background-image: -webkit-linear-gradient(top, #055a8e 0%, #1d84c3 100%);
-  background-image: linear-gradient(to bottom, #055a8e 0%, #1d84c3 100%);
+  background-color: black;
+  /*background-image: -webkit-linear-gradient(top, #055a8e 0%, #1d84c3 100%);*/
+  /*background-image: linear-gradient(to bottom, #055a8e 0%, #1d84c3 100%);*/
+  background-image: url(../../images/sunrise-over-the-earth.jpg);
+  width: 100%;
 }
 a,
 .link {
@@ -38,11 +40,11 @@ a:active,
   color: #23aeff;
 }
 .sidebar .block {
-  background-color: #f6f6f2;
-  border-color: #f9f9f9;
+  /*background-color: #f6f6f2;*/
+  /*border-color: #f9f9f9;*/
 }
 .site-footer {
-  background: #292929;
+  /*background: #292929;*/
 }
 .region-header,
 .region-header a,

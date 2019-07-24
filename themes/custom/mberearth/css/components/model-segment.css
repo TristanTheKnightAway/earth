@@ -1,33 +1,80 @@
-.container__grid {
-  display: grid;
-  grid-template-columns: 35% 65%;
-  margin-bottom: 3em;
+/* For small screens up to 800 px wide */
+
+@media (max-width: 800px) {
+  .container__grid {
+    display: grid;
+    /*grid-template-columns: 35% 65%;*/
+    grid-template-rows: 35% 65%;
+    margin-bottom: 3em;
+  }
+
+  .grid__left {
+    grid-row: 1;
+    padding: 2em 2em 0 0;
+    text-align: center;
+    border-top: solid 2px black;
+  }
+
+  .grid__right {
+    grid-row: 2;
+    align-self: center;
+    padding: 0 2em 2em 2em;
+    /*border-left: solid 2px black;*/
+    /*border-bottom: solid 2px black;*/
+  }
+
+  .learning-segment-title--model-triangle {
+    color: green;
+    margin: 1em 5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 1.092em;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    padding: 1em;
+    line-height: 1.092em;
+    text-align: center;
+  }
+
+  .field--name-field-resources-segment {
+    margin: 0 5%;
+  }
 }
 
-.grid__left {
-  grid-column: 1;
-  padding: 0 2em;
-  text-align: center;
-  border-right: solid 2px black;
-}
+/* For screens larger than 801 px wide */
 
-.grid__right {
-  grid-column: 2;
-  align-self: center;
-  padding: 0 2em 0 3em;
-  /*border-left: solid 2px black;*/
-  /*border-bottom: solid 2px black;*!*/
-}
+@media (min-width: 801px) {
+  .container__grid {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-bottom: 3em;
+  }
 
-.learning-segment-title--model-triangle {
-  color: green;
-  margin: 1em 5%;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
-  font-size: 1.092em;
-  border-top: 2px solid green;
-  border-bottom: 2px solid green;
-  padding: 1em;
-  line-height: 1.092em;
-  text-align: center;
+  .grid__left {
+    grid-column: 1;
+    padding: 0 2em;
+    text-align: center;
+    border-right: solid 2px black;
+  }
+
+  .grid__right {
+    grid-column: 2;
+    align-self: center;
+    padding: 0 2em 0 3em;
+    /*border-left: solid 2px black;*/
+    /*border-bottom: solid 2px black;*!*/
+  }
+
+  .learning-segment-title--model-triangle {
+    color: green;
+    margin: 1em 5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 1.092em;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    padding: 1em;
+    line-height: 1.092em;
+    text-align: center;
+  }
 }
