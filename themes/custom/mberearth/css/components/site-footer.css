@@ -6,10 +6,13 @@
 .site-footer {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 35px 0 30px;
-  background-image: url(../../images/seashells-on-sand.jpg);
+  background: url(../../images/tropical-waterfall-wide.jpg) center center fixed no-repeat;
+  background-size: cover;
+
 }
 .site-footer .layout-container {
   padding: 0 15px;
+  height: 100vh;
 }
 
 @media all and (min-width: 560px) {
@@ -234,5 +237,6 @@
 
 
 .footer--image {
-  background-image: url(../../images/seashells-on-sand.jpg);
+  background: url(../../images/tropical-waterfall-wide2.jpg) no-repeat center center fixed;
+  background-size: cover;
 }

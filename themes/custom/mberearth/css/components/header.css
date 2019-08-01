@@ -203,6 +203,6 @@
 }
 
 .header--image {
-  background-image: url(../../images/forest-sunlight-2.jpg);
-  width: 100%;
+  background: url(../../images/forest-sunlight-2.jpg) center center no-repeat fixed;
+  background-size: cover;
 }
