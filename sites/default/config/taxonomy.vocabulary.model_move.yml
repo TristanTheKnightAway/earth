@@ -1,0 +1,9 @@
+uuid: 1e432777-382b-48ce-9574-adc944065188
+langcode: en
+status: true
+dependencies: {  }
+name: 'Model Move'
+vid: model_move
+description: 'A description of how the Model Segment moves around the Model Triangle'
+hierarchy: 0
+weight: 0

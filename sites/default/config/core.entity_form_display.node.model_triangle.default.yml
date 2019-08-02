@@ -1,0 +1,196 @@
+uuid: e2a18aec-0acf-49e4-baca-b533405b5249
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.model_triangle.body
+    - field.field.node.model_triangle.field_advanced_planning
+    - field.field.node.model_triangle.field_announcement
+    - field.field.node.model_triangle.field_bg_color
+    - field.field.node.model_triangle.field_date_range
+    - field.field.node.model_triangle.field_download_resources
+    - field.field.node.model_triangle.field_main_photo
+    - field.field.node.model_triangle.field_model_ideas
+    - field.field.node.model_triangle.field_para_model_segment
+    - field.field.node.model_triangle.field_phenomenon
+    - field.field.node.model_triangle.field_pqm_image
+    - field.field.node.model_triangle.field_question
+    - field.field.node.model_triangle.field_reflections
+    - field.field.node.model_triangle.field_tags
+    - field.field.node.model_triangle.field_teachers_edition
+    - image.style.thumbnail
+    - node.type.model_triangle
+  module:
+    - datetime_range
+    - file
+    - image
+    - paragraphs
+    - path
+    - text
+id: node.model_triangle.default
+targetEntityType: node
+bundle: model_triangle
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 11
+    settings:
+      rows: 4
+      placeholder: ''
+      summary_rows: 2
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_advanced_planning:
+    weight: 15
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_announcement:
+    weight: 5
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_bg_color:
+    weight: 18
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_date_range:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_download_resources:
+    weight: 12
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_main_photo:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_model_ideas:
+    weight: 9
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_para_model_segment:
+    type: entity_reference_paragraphs
+    weight: 14
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_phenomenon:
+    weight: 7
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_pqm_image:
+    weight: 6
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_question:
+    weight: 8
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_reflections:
+    weight: 16
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_tags:
+    weight: 17
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_teachers_edition:
+    weight: 13
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 19
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden:
+  promote: true
+  sticky: true

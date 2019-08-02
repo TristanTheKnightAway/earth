@@ -1,0 +1,22 @@
+uuid: d1ae2b29-51d7-4417-bd72-bcbd87c3547c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.mber_essential
+  module:
+    - text
+id: node.mber_essential.body
+field_name: body
+entity_type: node
+bundle: mber_essential
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

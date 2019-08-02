@@ -1,0 +1,21 @@
+uuid: 6edd8bbb-45d4-4c91-9de6-8b59bebf8cc3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_model_ideas
+    - node.type.model_triangle
+  module:
+    - text
+id: node.model_triangle.field_model_ideas
+field_name: field_model_ideas
+entity_type: node
+bundle: model_triangle
+label: 'Model Ideas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

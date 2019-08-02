@@ -1,0 +1,38 @@
+uuid: a2f2aa09-eb3f-4cd1-ab54-b993fc344e12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pqm_image
+    - node.type.model_triangle
+  module:
+    - image
+id: node.model_triangle.field_pqm_image
+field_name: field_pqm_image
+entity_type: node
+bundle: model_triangle
+label: 'PQM Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '2 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

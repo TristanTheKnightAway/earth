@@ -1,0 +1,21 @@
+uuid: d3843c89-3c99-4051-9a7a-3569c3d10d7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_estimated_time
+field_name: field_estimated_time
+entity_type: paragraph
+type: string
+settings:
+  max_length: 100
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

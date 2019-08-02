@@ -1,0 +1,38 @@
+uuid: 461f6606-9c15-4623-9ee0-c61963a831b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_images
+    - node.type.mber_essential
+  module:
+    - image
+id: node.mber_essential.field_related_images
+field_name: field_related_images
+entity_type: node
+bundle: mber_essential
+label: 'Related Images'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: essentials/related-images
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '3 mb'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

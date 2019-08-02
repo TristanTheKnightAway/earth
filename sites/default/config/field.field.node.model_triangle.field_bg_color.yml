@@ -1,0 +1,29 @@
+uuid: f802e889-b347-4af6-95cb-15248afe8055
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bg_color
+    - node.type.model_triangle
+    - taxonomy.vocabulary.background_color
+id: node.model_triangle.field_bg_color
+field_name: field_bg_color
+entity_type: node
+bundle: model_triangle
+label: 'Background Color'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      background_color: background_color
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

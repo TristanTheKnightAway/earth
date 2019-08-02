@@ -1,0 +1,19 @@
+uuid: 91310fe0-d6eb-427a-a898-494d4ecd7feb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_model_ideas
+field_name: field_model_ideas
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

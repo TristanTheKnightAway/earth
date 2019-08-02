@@ -1,0 +1,19 @@
+uuid: fc524df4-b6ad-45b9-b279-73f993200369
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_phenomenon
+field_name: field_phenomenon
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

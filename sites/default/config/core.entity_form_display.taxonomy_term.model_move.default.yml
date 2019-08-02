@@ -1,0 +1,48 @@
+uuid: 6bf063a1-e4e8-4e64-97d5-042a48525161
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.model_move.field_pqm_move_image
+    - image.style.thumbnail
+    - taxonomy.vocabulary.model_move
+  module:
+    - image
+    - path
+    - text
+id: taxonomy_term.model_move.default
+targetEntityType: taxonomy_term
+bundle: model_move
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pqm_move_image:
+    weight: 31
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,30 @@
+uuid: 112938ff-dea5-4077-8770-53831388f585
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mber_essential.body
+    - node.type.mber_essential
+  module:
+    - text
+    - user
+id: node.mber_essential.teaser
+targetEntityType: node
+bundle: mber_essential
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

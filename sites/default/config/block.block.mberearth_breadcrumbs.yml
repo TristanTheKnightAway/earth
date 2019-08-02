@@ -1,0 +1,22 @@
+uuid: c1e48843-5483-4442-b5fb-5e6d6d6eff9f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mberearth
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: mberearth_breadcrumbs
+theme: mberearth
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 3c40911e-d022-47e2-860b-e94ffd808b84
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:aa92d4d7-9357-42a5-9397-60075dc3e364'
+  module:
+    - block_content
+  theme:
+    - mberearth
+id: creativecommons
+theme: mberearth
+region: footer_third
+weight: 0
+provider: null
+plugin: 'block_content:aa92d4d7-9357-42a5-9397-60075dc3e364'
+settings:
+  id: 'block_content:aa92d4d7-9357-42a5-9397-60075dc3e364'
+  label: 'Creative Commons'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,38 @@
+uuid: 1fef6043-d570-4049-8029-14c2fb8261c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_main_photo
+    - node.type.model_triangle
+  module:
+    - image
+id: node.model_triangle.field_main_photo
+field_name: field_main_photo
+entity_type: node
+bundle: model_triangle
+label: 'Main Photo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: 2MB
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

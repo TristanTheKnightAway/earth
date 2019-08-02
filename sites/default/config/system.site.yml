@@ -1,0 +1,14 @@
+uuid: 985c47eb-2482-4391-8527-a29fce7356d6
+name: 'MODEL BASED BIOLOGY - LIVING EARTH'
+mail: tristanpeery@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

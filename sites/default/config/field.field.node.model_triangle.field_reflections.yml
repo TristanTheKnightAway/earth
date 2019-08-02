@@ -1,0 +1,21 @@
+uuid: 730cd1dd-ea4d-4391-9b17-1000bafac9f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reflections
+    - node.type.model_triangle
+  module:
+    - text
+id: node.model_triangle.field_reflections
+field_name: field_reflections
+entity_type: node
+bundle: model_triangle
+label: Reflections
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

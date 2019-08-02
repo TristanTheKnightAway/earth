@@ -1,0 +1,16 @@
+palette:
+  top: '#256800'
+  bottom: '#5FAF29'
+  bg: '#ffffff'
+  sidebar: '#fffce4'
+  sidebarborders: '#f9f9f9'
+  footer: '#256800'
+  titleslogan: '#fffeff'
+  text: '#373737'
+  link: '#256800'
+logo: 'public://color/mberearth-151ea8ec/logo.svg'
+stylesheets:
+  - 'public://color/mberearth-151ea8ec/colors.css'
+files:
+  - 'public://color/mberearth-151ea8ec/logo.svg'
+  - 'public://color/mberearth-151ea8ec/colors.css'

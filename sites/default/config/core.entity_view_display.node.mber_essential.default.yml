@@ -1,0 +1,73 @@
+uuid: e68f86ea-405e-4401-9310-cbd6b21072b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mber_essential.body
+    - field.field.node.mber_essential.field_attachments
+    - field.field.node.mber_essential.field_main_photo
+    - field.field.node.mber_essential.field_related_images
+    - field.field.node.mber_essential.field_tags
+    - image.style.medium
+    - node.type.mber_essential
+  module:
+    - file
+    - image
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    sections: {  }
+id: node.mber_essential.default
+targetEntityType: node
+bundle: mber_essential
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_attachments:
+    weight: 4
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_table
+    region: content
+  field_main_photo:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_related_images:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: file
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tags:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

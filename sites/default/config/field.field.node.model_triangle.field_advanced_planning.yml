@@ -1,0 +1,21 @@
+uuid: 3b29372c-d29d-47e3-9f32-4692a70c9479
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_advanced_planning
+    - node.type.model_triangle
+  module:
+    - text
+id: node.model_triangle.field_advanced_planning
+field_name: field_advanced_planning
+entity_type: node
+bundle: model_triangle
+label: 'Advanced Planning'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

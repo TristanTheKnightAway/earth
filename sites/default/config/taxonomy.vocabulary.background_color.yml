@@ -1,0 +1,9 @@
+uuid: 9142fabe-d30e-416a-b939-e92e3b45bebf
+langcode: en
+status: true
+dependencies: {  }
+name: 'Background Color'
+vid: background_color
+description: 'Used to determine the background color of a model triangle'
+hierarchy: 0
+weight: 0

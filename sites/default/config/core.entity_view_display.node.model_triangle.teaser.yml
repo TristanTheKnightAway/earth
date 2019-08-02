@@ -1,0 +1,62 @@
+uuid: 22a6a0da-fcd8-43f7-a241-b53a8ca8705b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.model_triangle.body
+    - field.field.node.model_triangle.field_advanced_planning
+    - field.field.node.model_triangle.field_announcement
+    - field.field.node.model_triangle.field_bg_color
+    - field.field.node.model_triangle.field_date_range
+    - field.field.node.model_triangle.field_download_resources
+    - field.field.node.model_triangle.field_main_photo
+    - field.field.node.model_triangle.field_model_ideas
+    - field.field.node.model_triangle.field_para_model_segment
+    - field.field.node.model_triangle.field_phenomenon
+    - field.field.node.model_triangle.field_pqm_image
+    - field.field.node.model_triangle.field_question
+    - field.field.node.model_triangle.field_reflections
+    - field.field.node.model_triangle.field_tags
+    - field.field.node.model_triangle.field_teachers_edition
+    - node.type.model_triangle
+  module:
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    sections: {  }
+id: node.model_triangle.teaser
+targetEntityType: node
+bundle: model_triangle
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 200
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_advanced_planning: true
+  field_announcement: true
+  field_bg_color: true
+  field_date_range: true
+  field_download_resources: true
+  field_main_photo: true
+  field_model_ideas: true
+  field_para_model_segment: true
+  field_phenomenon: true
+  field_pqm_image: true
+  field_question: true
+  field_reflections: true
+  field_tags: true
+  field_teachers_edition: true

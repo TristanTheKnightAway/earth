@@ -1,0 +1,38 @@
+uuid: 736ddd30-89bc-4352-93d1-b7cdd642ef3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_student_work
+    - paragraphs.paragraphs_type.model_segment
+  module:
+    - image
+id: paragraph.model_segment.field_student_work
+field_name: field_student_work
+entity_type: paragraph
+bundle: model_segment
+label: 'Student Work'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: model-triangle/segment/student-work
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

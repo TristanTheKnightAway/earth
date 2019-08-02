@@ -1,0 +1,22 @@
+uuid: f51593e2-3351-4cfd-99a3-2196d4d42f19
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.model_triangle
+  module:
+    - text
+id: node.model_triangle.body
+field_name: body
+entity_type: node
+bundle: model_triangle
+label: Overview
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

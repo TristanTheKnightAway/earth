@@ -1,0 +1,27 @@
+uuid: afc7a47f-3f9b-4284-8fb1-d6221466e09c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachments
+    - node.type.mber_essential
+  module:
+    - file
+id: node.mber_essential.field_attachments
+field_name: field_attachments
+entity_type: node
+bundle: mber_essential
+label: Attachments
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: essentials/attachments
+  file_extensions: 'nlogo jpg jpeg gif png txt doc docx xls xlsx pdf ppt pptm pptx pps ppsx odt ods odp mp3 mov mp4 m4a m4v mpeg avi ogg oga ogv weba webp webm bmp key wmv ico zip wr2'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

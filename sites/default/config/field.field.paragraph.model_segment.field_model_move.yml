@@ -1,0 +1,29 @@
+uuid: bddad7bd-1d64-4308-9471-3a5e72152e1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_model_move
+    - paragraphs.paragraphs_type.model_segment
+    - taxonomy.vocabulary.model_move
+id: paragraph.model_segment.field_model_move
+field_name: field_model_move
+entity_type: paragraph
+bundle: model_segment
+label: 'Model Move'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      model_move: model_move
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

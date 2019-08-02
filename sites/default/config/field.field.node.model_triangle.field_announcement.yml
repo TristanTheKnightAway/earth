@@ -1,0 +1,21 @@
+uuid: f031fe04-17d3-4824-8ce1-5fcd1a521c98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_announcement
+    - node.type.model_triangle
+  module:
+    - text
+id: node.model_triangle.field_announcement
+field_name: field_announcement
+entity_type: node
+bundle: model_triangle
+label: Announcement
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

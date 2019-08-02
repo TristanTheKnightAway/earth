@@ -1,0 +1,29 @@
+uuid: 7679772d-6b7f-41b7-b15f-a7846bad7750
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.mber_essential
+    - taxonomy.vocabulary.tags
+id: node.mber_essential.field_tags
+field_name: field_tags
+entity_type: node
+bundle: mber_essential
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,27 @@
+uuid: 994d1937-bb17-49b8-b1cf-e5ae322f1e2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teachers_edition
+    - node.type.model_triangle
+  module:
+    - file
+id: node.model_triangle.field_teachers_edition
+field_name: field_teachers_edition
+entity_type: node
+bundle: model_triangle
+label: 'Teacher''s Edition'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: model-triangle-docs-teacher
+  file_extensions: 'nlogo jpg jpeg gif png txt doc docx xls xlsx pdf ppt pptm pptx pps ppsx odt ods odp mp3 mov mp4 m4a m4v mpeg avi ogg oga ogv weba webp webm bmp key wmv ico zip wr2'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

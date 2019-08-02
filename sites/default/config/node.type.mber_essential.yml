@@ -1,0 +1,17 @@
+uuid: 6e204547-8fd6-4a40-b2c3-1eedc94b755c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'MBER Essential'
+type: mber_essential
+description: 'A primer, foundation, or key element of a model-based curriculum'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,27 @@
+uuid: 28a5010f-b99b-4850-b6ba-67e8663d1b28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_download_resources
+    - node.type.model_triangle
+  module:
+    - file
+id: node.model_triangle.field_download_resources
+field_name: field_download_resources
+entity_type: node
+bundle: model_triangle
+label: 'Download Resources'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: model-triangle-docs
+  file_extensions: 'nlogo jpg jpeg gif png txt doc docx xls xlsx pdf ppt pptm pptx pps ppsx odt ods odp mp3 mov mp4 m4a m4v mpeg avi ogg oga ogv weba webp webm bmp key wmv ico zip wr2'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

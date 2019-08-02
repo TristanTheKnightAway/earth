@@ -1,0 +1,8 @@
+uuid: 32153edf-b985-4b60-9c35-502a47413623
+langcode: en
+status: true
+dependencies: {  }
+id: model_segment_date_range_format
+label: 'Model Segment Date Range Format'
+locked: false
+pattern: 'l, F j, Y'

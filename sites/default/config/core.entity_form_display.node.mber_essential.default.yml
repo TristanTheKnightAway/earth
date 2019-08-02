@@ -1,0 +1,89 @@
+uuid: 0807f4ac-28a3-4ed4-99c1-4c62d20e6739
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mber_essential.body
+    - field.field.node.mber_essential.field_attachments
+    - field.field.node.mber_essential.field_main_photo
+    - field.field.node.mber_essential.field_related_images
+    - field.field.node.mber_essential.field_tags
+    - image.style.medium
+    - node.type.mber_essential
+  module:
+    - file
+    - image
+    - path
+    - text
+id: node.mber_essential.default
+targetEntityType: node
+bundle: mber_essential
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_attachments:
+    weight: 5
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_main_photo:
+    weight: 1
+    settings:
+      preview_image_style: large
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_related_images:
+    weight: 4
+    settings:
+      preview_image_style: medium
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_tags:
+    weight: 6
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  path:
+    type: path
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 7
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  promote: true
+  sticky: true
+  uid: true

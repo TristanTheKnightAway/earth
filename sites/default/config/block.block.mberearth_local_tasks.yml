@@ -1,0 +1,22 @@
+uuid: b68b6b5a-f8e9-4baa-904f-61402edd6435
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mberearth
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: mberearth_local_tasks
+theme: mberearth
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

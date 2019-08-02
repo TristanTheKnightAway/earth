@@ -1,0 +1,9 @@
+uuid: c9814e18-c312-43fb-8659-48ed3444a168
+langcode: en
+status: true
+dependencies: {  }
+id: model_segment
+label: 'Model Segment'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

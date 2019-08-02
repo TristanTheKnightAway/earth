@@ -1,0 +1,22 @@
+uuid: 237701fa-e651-43b3-9a8d-ccdd99ab150a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.model_triangle
+id: node.model_triangle.promote
+field_name: promote
+entity_type: node
+bundle: model_triangle
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

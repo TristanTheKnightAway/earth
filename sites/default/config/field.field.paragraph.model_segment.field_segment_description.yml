@@ -1,0 +1,21 @@
+uuid: 73f66e38-2fc7-4f9f-997b-f064badd531f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_segment_description
+    - paragraphs.paragraphs_type.model_segment
+  module:
+    - text
+id: paragraph.model_segment.field_segment_description
+field_name: field_segment_description
+entity_type: paragraph
+bundle: model_segment
+label: 'Segment Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

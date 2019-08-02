@@ -1,0 +1,17 @@
+uuid: f9f3fe09-9392-47a3-b461-c233344267d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Model Triangle'
+type: model_triangle
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

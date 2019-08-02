@@ -1,0 +1,22 @@
+uuid: 6f8fc3ed-79d9-41aa-933b-01626cfa3b36
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mberearth
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: mberearth_help
+theme: mberearth
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

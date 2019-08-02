@@ -1,0 +1,27 @@
+uuid: 2a0d98db-c044-4e1e-9c6f-d17a6ab545d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_resources_segment
+    - paragraphs.paragraphs_type.model_segment
+  module:
+    - file
+id: paragraph.model_segment.field_resources_segment
+field_name: field_resources_segment
+entity_type: paragraph
+bundle: model_segment
+label: Resources
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: model-triangle/segment/resources
+  file_extensions: 'nlogo jpg jpeg gif png txt doc docx xls xlsx pdf ppt pptm pptx pps ppsx odt ods odp mp3 mov mp4 m4a m4v mpeg avi ogg oga ogv weba webp webm bmp key wmv ico zip wr2'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

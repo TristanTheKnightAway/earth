@@ -1,0 +1,21 @@
+uuid: 0ad934cf-cf27-439e-9750-7740226c0b89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_what_we_learned
+    - paragraphs.paragraphs_type.model_segment
+  module:
+    - text
+id: paragraph.model_segment.field_what_we_learned
+field_name: field_what_we_learned
+entity_type: paragraph
+bundle: model_segment
+label: 'What We Learned'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

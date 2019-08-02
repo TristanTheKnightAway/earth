@@ -1,0 +1,22 @@
+uuid: 6526c684-f9bb-4f08-86cb-b137ebe1dc9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mber_essential
+id: node.mber_essential.promote
+field_name: promote
+entity_type: node
+bundle: mber_essential
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

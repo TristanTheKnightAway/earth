@@ -1,0 +1,140 @@
+uuid: a18917f4-000d-45a3-9bb3-bcf028cacbfc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.model_triangle.body
+    - field.field.node.model_triangle.field_advanced_planning
+    - field.field.node.model_triangle.field_announcement
+    - field.field.node.model_triangle.field_bg_color
+    - field.field.node.model_triangle.field_date_range
+    - field.field.node.model_triangle.field_download_resources
+    - field.field.node.model_triangle.field_main_photo
+    - field.field.node.model_triangle.field_model_ideas
+    - field.field.node.model_triangle.field_para_model_segment
+    - field.field.node.model_triangle.field_phenomenon
+    - field.field.node.model_triangle.field_pqm_image
+    - field.field.node.model_triangle.field_question
+    - field.field.node.model_triangle.field_reflections
+    - field.field.node.model_triangle.field_tags
+    - field.field.node.model_triangle.field_teachers_edition
+    - image.style.large
+    - node.type.model_triangle
+  module:
+    - datetime_range
+    - entity_reference_revisions
+    - file
+    - image
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    sections: {  }
+id: node.model_triangle.default
+targetEntityType: node
+bundle: model_triangle
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_advanced_planning:
+    weight: 10
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_announcement:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_date_range:
+    weight: 8
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: model_segment_date_range_format
+      separator: '-'
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_download_resources:
+    weight: 7
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_table
+    region: content
+  field_model_ideas:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_para_model_segment:
+    type: entity_reference_revisions_entity_view
+    weight: 9
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_phenomenon:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_pqm_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_question:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_reflections:
+    weight: 11
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tags:
+    weight: 12
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_bg_color: true
+  field_main_photo: true
+  field_teachers_edition: true

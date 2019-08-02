@@ -1,0 +1,22 @@
+uuid: ae5244c3-be88-4efe-9f85-ea8e986bfe00
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mberearth
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: mberearth_content
+theme: mberearth
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
