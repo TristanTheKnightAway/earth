@@ -13,3 +13,8 @@ ul.menu {
 [dir="rtl"] ul.menu {
   margin: 0;
 }
+
+ul.menu a.is-active {
+  color: #47b3ff;
+  background: white;
+}

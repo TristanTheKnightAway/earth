@@ -23,14 +23,13 @@
   width: 100%;
 }
 .region-primary-menu .menu a {
-  color: #333;
+  color: #000;
   background: #ccc;
   background: rgba(255, 255, 255, 0.7);
   float: none;
   display: block;
   text-decoration: none;
-  text-shadow: 0 1px #eee;
-  border-radius: 8px;
+  /*border-radius: 8px;*/
   margin: 4px 0;
   padding: 0.9em 0 0.9em 10px; /* LTR */
 }
@@ -41,6 +40,8 @@
 .region-primary-menu .menu a:focus {
   background: #f6f6f2;
   background: rgba(255, 255, 255, 0.95);
+  font-size: 0.929em;
+  /*font-size: 1.1em;*/
 }
 .region-primary-menu .menu a:active {
   background: #b3b3b3;
@@ -73,7 +74,7 @@ body:not(:target) .region-primary-menu .menu-toggle {
   font-size: 0.929em;
   display: block;
   text-decoration: none;
-  text-shadow: 0 1px #eee;
+  /*text-shadow: 0 1px #eee;*/
   padding: 0.9em 10px 0.9em 10px;
   z-index: 1000;
 }
@@ -124,7 +125,7 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
   }
   .region-primary-menu .menu-item,
   body:not(:target) .region-primary-menu .menu-item {
-    float: left; /* LTR */
+    /*float: left; !* LTR *!*/
     margin-right: 5px; /* LTR */
     padding: 0;
     display: inline-block;

@@ -25,6 +25,7 @@ a.link {
   background-clip: text;
   text-shadow: none;
   font-weight: bold;
+  transition: all 0.8s ease;
 
 }
 a:hover,
@@ -36,6 +37,16 @@ a:focus,
   text-decoration: none;
   border-bottom-style: solid;
 }
+
+a:hover {
+  font-size: 1.1em;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #2eb017), color-stop(1, #0095ff) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #2eb017), color-stop(1, #0095ff) );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 .link {
   font-family: Roboto Condensed, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -43,6 +54,11 @@ h1 a,
 h2 a {
   border-bottom: none;
 }
+
+/*h1 a:hover,*/
+/*h2 a:hover {*/
+   /*font-size: 1.143em;*/
+ /*}*/
 
 /**
  * Reusable heading classes are included to help modules change the styling of

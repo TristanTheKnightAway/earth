@@ -184,8 +184,8 @@
 .site-footer__bottom {
   letter-spacing: 0.2px;
   margin-top: 30px;
-  border-top: 1px solid #555;
-  border-color: rgba(255, 255, 255, 0.15);
+  /*border-top: 1px solid #555;*/
+  /*border-color: rgba(255, 255, 255, 0.15);*/
 }
 .site-footer__bottom .region {
   margin-top: 20px;
@@ -202,13 +202,13 @@
   float: left; /* LTR */
   padding: 0 12px;
   display: block;
-  border-right: 1px solid #555; /* LTR */
-  border-color: rgba(255, 255, 255, 0.15);
+  /*border-right: 1px solid #555; !* LTR *!*/
+  /*border-color: rgba(255, 255, 255, 0.15);*/
 }
 [dir="rtl"] .site-footer__bottom .menu-item a {
   float: right;
-  border-left: 1px solid #555;
-  border-right: none;
+  /*border-left: 1px solid #555;*/
+  /*border-right: none;*/
 }
 .site-footer__bottom .menu-item:first-child a {
   padding-left: 0; /* LTR */
@@ -237,6 +237,6 @@
 
 
 .footer--image {
-  background: url(../../images/tropical-waterfall-wide2.jpg) no-repeat center center fixed;
+  background: url(../../images/tropical-waterfall-wide4.jpg) no-repeat center center fixed;
   background-size: cover;
 }
