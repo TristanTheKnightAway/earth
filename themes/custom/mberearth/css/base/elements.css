@@ -39,12 +39,11 @@ a:focus,
 }
 
 a:hover {
-  font-size: 1.1em;
-  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #2eb017), color-stop(1, #0095ff) );
-  background-image: gradient( linear, left top, right top, color-stop(0, #2eb017), color-stop(1, #0095ff) );
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  /*background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #2eb017), color-stop(1, #0095ff) );*/
+  /*background-image: gradient( linear, left top, right top, color-stop(0, #2eb017), color-stop(1, #0095ff) );*/
+  color: #0095ff;
+  /*-webkit-background-clip: text;*/
+  /*background-clip: text;*/
 }
 
 .link {
