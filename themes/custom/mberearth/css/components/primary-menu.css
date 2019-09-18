@@ -5,9 +5,11 @@
 }
 .region-primary-menu .menu {
   font-size: 0.929em;
-  margin: 0 5px;
+  margin: 0 auto;
   padding: 0;
   text-align: left; /* LTR */
+  width: 100%;
+  background: transparent;
 }
 [dir="rtl"] .region-primary-menu .menu {
   text-align: right;
@@ -15,7 +17,7 @@
   margin-right: 5px; /* This is required to win over specificity of [dir="rtl"] ul.menu */
 }
 .region-primary-menu .menu-item {
-  float: none;
+  float: left;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -30,7 +32,8 @@
   display: block;
   text-decoration: none;
   /*border-radius: 8px;*/
-  margin: 4px 0;
+  /*margin: 4px 0;*/
+  margin: 0;
   padding: 0.9em 0 0.9em 10px; /* LTR */
 }
 [dir="rtl"] .region-primary-menu .menu a {
@@ -40,8 +43,9 @@
 .region-primary-menu .menu a:focus {
   background: #f6f6f2;
   background: rgba(255, 255, 255, 0.95);
-  font-size: 0.929em;
+  /*font-size: 0.929em;*/
   /*font-size: 1.1em;*/
+  color: #2eb017;
 }
 .region-primary-menu .menu a:active {
   background: #b3b3b3;
@@ -115,7 +119,8 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
 @media all and (min-width: 461px) {
   /*@media all and (min-width: 461px) and (max-width: 900px) {*/
   .region-primary-menu .menu {
-    margin: 0 5px;
+    /*margin: 0 5px;*/
+    margin: 0;
     padding: 0;
     text-align: center;
   }
@@ -126,17 +131,19 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
   .region-primary-menu .menu-item,
   body:not(:target) .region-primary-menu .menu-item {
     /*float: left; !* LTR *!*/
-    margin-right: 5px; /* LTR */
+    /*margin-right: 5px; !* LTR *!*/
+    margin-right: 0; /* LTR */
     padding: 0;
     display: inline-block;
-    width: 32.75%;
+    width: 15%;
     height: auto;
     overflow: visible;
   }
   [dir="rtl"] .region-primary-menu .menu-item,
   [dir="rtl"] body:not(:target) .region-primary-menu .menu-item {
     float: right;
-    margin-left: 5px;
+    /*margin-left: 5px;*/
+    margin-left: 0;
     margin-right: 0;
   }
   .region-primary-menu .menu-item:nth-child(3n) {
@@ -149,9 +156,9 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
   .region-primary-menu .menu a {
     float: none;
     display: block;
-    border-radius: 8px;
-    margin-bottom: 5px;
-    padding: 0.9em 5px;
+    /*border-radius: 8px;*/
+    /*margin-bottom: 5px;*/
+    /*padding: 0.9em 5px;*/
   }
   /* This is required to win over specificity of the global [dir="rtl"] .region-primary-menu .menu a */
   [dir="rtl"] .region-primary-menu .menu a {
