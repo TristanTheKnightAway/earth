@@ -45,7 +45,8 @@
   background: rgba(255, 255, 255, 0.95);
   /*font-size: 0.929em;*/
   /*font-size: 1.1em;*/
-  color: #2eb017;
+  /*color: #2eb017;*/
+  color: #0095ff;
 }
 .region-primary-menu .menu a:active {
   background: #b3b3b3;

@@ -15,6 +15,7 @@ ul.menu {
 }
 
 ul.menu a.is-active {
-  color: #47b3ff;
+  color: #2eb017;
+  /*color: #0095ff;*/
   background: white;
 }
