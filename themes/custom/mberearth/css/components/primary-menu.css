@@ -10,6 +10,7 @@
   text-align: left; /* LTR */
   width: 100%;
   background: transparent;
+  border-bottom: 3px solid #eb9729;
 }
 [dir="rtl"] .region-primary-menu .menu {
   text-align: right;
@@ -31,8 +32,6 @@
   float: none;
   display: block;
   text-decoration: none;
-  /*border-radius: 8px;*/
-  /*margin: 4px 0;*/
   margin: 0;
   padding: 0.9em 0 0.9em 10px; /* LTR */
 }
@@ -43,10 +42,9 @@
 .region-primary-menu .menu a:focus {
   background: #f6f6f2;
   background: rgba(255, 255, 255, 0.95);
-  /*font-size: 0.929em;*/
-  /*font-size: 1.1em;*/
   /*color: #2eb017;*/
-  color: #0095ff;
+  /*color: #0095ff;*/
+  color: #cc8120;
 }
 .region-primary-menu .menu a:active {
   background: #b3b3b3;
