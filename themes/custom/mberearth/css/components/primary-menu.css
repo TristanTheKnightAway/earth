@@ -5,12 +5,11 @@
 }
 .region-primary-menu .menu {
   font-size: 0.929em;
-  margin: 0 auto;
-  padding: 0 2%;
+  width: 96%;
+  margin: 0 2%;
+  padding: 0;
   text-align: left; /* LTR */
-  width: 100%;
   background: transparent;
-  border-bottom: 3px solid #eb9729;
 }
 [dir="rtl"] .region-primary-menu .menu {
   text-align: right;
@@ -24,6 +23,7 @@
   padding: 0;
   height: auto;
   width: 100%;
+  border-bottom: 3px solid #eb9729;
 }
 .region-primary-menu .menu a {
   color: #000;
