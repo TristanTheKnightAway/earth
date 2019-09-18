@@ -6,7 +6,7 @@
 .region-primary-menu .menu {
   font-size: 0.929em;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 2%;
   text-align: left; /* LTR */
   width: 100%;
   background: transparent;
@@ -77,7 +77,6 @@ body:not(:target) .region-primary-menu .menu-toggle {
   font-size: 0.929em;
   display: block;
   text-decoration: none;
-  /*text-shadow: 0 1px #eee;*/
   padding: 0.9em 10px 0.9em 10px;
   z-index: 1000;
 }
@@ -118,9 +117,6 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
 @media all and (min-width: 461px) {
   /*@media all and (min-width: 461px) and (max-width: 900px) {*/
   .region-primary-menu .menu {
-    /*margin: 0 5px;*/
-    margin: 0;
-    padding: 0;
     text-align: center;
   }
   /* This is required to win over specificity of the global [dir="rtl"] .region-primary-menu .menu */
@@ -134,7 +130,7 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
     margin-right: 0; /* LTR */
     padding: 0;
     display: inline-block;
-    width: 15%;
+    width: 16%;
     height: auto;
     overflow: visible;
   }
