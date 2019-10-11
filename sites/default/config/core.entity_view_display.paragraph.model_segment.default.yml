@@ -7,18 +7,14 @@ dependencies:
     - field.field.paragraph.model_segment.field_model_move
     - field.field.paragraph.model_segment.field_resources_segment
     - field.field.paragraph.model_segment.field_segment_description
+    - field.field.paragraph.model_segment.field_segment_title
     - field.field.paragraph.model_segment.field_student_work
     - field.field.paragraph.model_segment.field_what_we_learned
     - image.style.thumbnail
     - paragraphs.paragraphs_type.model_segment
   module:
-    - file
     - image
-    - layout_builder
     - text
-third_party_settings:
-  layout_builder:
-    sections: {  }
 id: paragraph.model_segment.default
 targetEntityType: paragraph
 bundle: model_segment
@@ -41,14 +37,6 @@ content:
     third_party_settings: {  }
     type: entity_reference_entity_view
     region: content
-  field_resources_segment:
-    weight: 4
-    label: visually_hidden
-    settings:
-      use_description_as_link_text: true
-    third_party_settings: {  }
-    type: file_table
-    region: content
   field_segment_description:
     weight: 2
     label: hidden
@@ -56,8 +44,16 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
+  field_segment_title:
+    weight: 5
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
   field_student_work:
-    weight: 6
+    weight: 4
     label: hidden
     settings:
       image_style: thumbnail
@@ -72,4 +68,5 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
-hidden: {  }
+hidden:
+  field_resources_segment: true

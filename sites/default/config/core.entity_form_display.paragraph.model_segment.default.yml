@@ -7,6 +7,7 @@ dependencies:
     - field.field.paragraph.model_segment.field_model_move
     - field.field.paragraph.model_segment.field_resources_segment
     - field.field.paragraph.model_segment.field_segment_description
+    - field.field.paragraph.model_segment.field_segment_title
     - field.field.paragraph.model_segment.field_student_work
     - field.field.paragraph.model_segment.field_what_we_learned
     - image.style.thumbnail
@@ -38,19 +39,27 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_resources_segment:
-    weight: 4
+    weight: 5
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
     region: content
   field_segment_description:
-    weight: 2
+    weight: 3
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
+    region: content
+  field_segment_title:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_student_work:
     weight: 6
@@ -61,7 +70,7 @@ content:
     type: image_image
     region: content
   field_what_we_learned:
-    weight: 3
+    weight: 4
     settings:
       rows: 5
       placeholder: ''
