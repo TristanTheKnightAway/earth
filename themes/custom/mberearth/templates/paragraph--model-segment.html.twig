@@ -52,15 +52,18 @@ not paragraph.isPublished() ? 'paragraph--unpublished'
     {% block content %}
       <h2>{{ content.label }}</h2>
       <div class="container__grid">
+        <div class="grid__row--top">
+          <h3>LEARNING SEGMENT : <span class="change-text__upper"> {{ content.field_segment_title }} </span> </h3>
+          <span class="change-text__italics what-we-learned--model-triangle">{{ content.field_what_we_learned }}</span>
+        </div>
         <div class="grid__left">
           {{ content.field_model_move }}
           {{ content.field_estimated_time }}
           {{ content.field_resources_segment }}
         </div>
-        <span class="grid__right">
+        <div class="grid__right">
           <span class="change-text__upper">{{ content.field_model_move.label }}</span>
           {{ content.field_segment_description }}
-          <span class="change-text__italics what-we-learned--model-triangle">{{ content.field_what_we_learned }}</span>
           {{ content.field_student_work }}
         </div>
       </div>
