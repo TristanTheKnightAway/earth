@@ -24,7 +24,6 @@
     grid-row: 3;
     align-self: center;
     padding: 0 2em 2em 2em;
-    margin-right: 3em;
     /*border-left: solid 2px black;*/
     /*border-bottom: solid 2px black;*/
   }
@@ -83,6 +82,7 @@
     grid-column: 2;
     align-self: center;
     padding: 2em 2em 0 4em;
+    margin-right: 3em;
     /*border-right: solid 1px #0597ff;*/
     border-left: solid 2px #17649a;
     /*border-bottom: solid 2px black;*!*/
