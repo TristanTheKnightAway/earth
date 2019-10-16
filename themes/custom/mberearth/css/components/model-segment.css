@@ -75,6 +75,7 @@
     /*border-right: solid 2px #17649a;*/
     /*border-left: solid 2px #0597ff;*/
     padding-top: 1em 0;
+    margin-bottom: 3em;
   }
 
   .grid__right {
@@ -86,6 +87,7 @@
     /*border-right: solid 1px #0597ff;*/
     border-left: solid 2px #17649a;
     /*border-bottom: solid 2px black;*!*/
+    margin-bottom: 3em;
   }
 
   /*.grid__row--middle {*/
