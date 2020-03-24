@@ -4,6 +4,7 @@ sites/*/private
 files/*
 .idea/workspace.xml
 .idea/*
+vendor/*
 
 # Avoid accidental modification of pantheon.upstream.yml in sites
 # created from this upstream
