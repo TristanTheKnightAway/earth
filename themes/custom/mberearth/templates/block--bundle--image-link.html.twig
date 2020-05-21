@@ -1,0 +1,25 @@
+{% extends "block.html.twig" %}
+{#
+/**
+ * @file
+ * Theme override for a Focus Block.
+ *
+ * Available variables:
+ * - Look in the block.html.twig file for available variables.
+ */
+#}
+{% set label = FALSE %}
+{% set class_box = FALSE %}
+{% set attributes = attributes.addClass('image-link') %}
+
+{% block content %}
+<a href="{{ content.field_link.0['#url'] }}" class="image-link">
+  <div class="image-link__image">
+    {{ content.field_image }}
+    <h4 class="image-link__title category-brand__text--knock-out">{{ content.field_link.0['#title'] }}</h4>
+  </div>
+    {#<div class="image-link__body category-brand__background--lighten">#}
+      {#{{ content|without('field_image', 'field_link') }}#}
+    {#</div>#}
+</a>
+{% endblock %}

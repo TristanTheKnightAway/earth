@@ -24,6 +24,7 @@ global-styling:
       css/components/help.css: {}
       css/components/highlighted.css: {}
       css/components/icon-link.css: {}
+      css/components/image-link.css: {}
       css/components/item-list.css: {}
       css/components/list-group.css: {}
       css/components/list.css: {}
