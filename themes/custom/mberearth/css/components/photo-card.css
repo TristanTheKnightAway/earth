@@ -4,6 +4,7 @@
   color: inherit;
   font-weight: normal;
   text-decoration: none;
+  padding: 0.5em;
 }
 
 .photo-card__body {
@@ -49,6 +50,10 @@
   transition: all 0.5s ease-in-out;
 }
 
+.photo-card__image .field--type-image {
+  margin: 0;
+}
+
 .photo-card__image:after {
  /*@include force-anti-alias();*/
  /*@include triangle($white, 200px, 1600px, 45);*/
@@ -67,8 +72,8 @@
  /*@include font-size($font-size--large);*/
    display: inline-block;
    margin-top: $spacer;
-   width: 70%;
-   color: gray;
+   width: 90%;
+   color: #514D43;
    font-weight: bold;
    text-align: center;
  }
@@ -77,6 +82,7 @@
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  background-color: lightgoldenrodyellow;
 }
 
 .photo-card:hover img {

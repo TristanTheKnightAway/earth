@@ -23,6 +23,7 @@ global-styling:
       css/components/header.css: {}
       css/components/help.css: {}
       css/components/highlighted.css: {}
+      css/components/icon-link.css: {}
       css/components/item-list.css: {}
       css/components/list-group.css: {}
       css/components/list.css: {}

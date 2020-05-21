@@ -1,0 +1,68 @@
+.icon-link {
+/*@extend % o-media;*/
+/*@include link-style-secondary();*/
+  display: grid;
+  grid-template-columns: 25% 75%;
+  align-items: center;
+  padding: 0.5em;
+  text-decoration: none;
+  transition: background-color .2s ease-in-out;
+}
+
+.icon-link:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+.icon-link__figure {
+  grid-column: 1;
+  max-width: 100px;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.icon-link__figure img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  margin: 0 0 0 -0%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.icon-link__body {
+  /*@extend %o-media__body;*/
+  grid-column: 2;
+  align-self: center;
+  font-size(17px);
+}
+
+  /*// Reverse the image to the right side*/
+  /*&--rev {*/
+    /*@extend %o-media--rev;*/
+  /*}*/
+
+  /*// Font Awesome icons for when not using an <img> tag. Add this to the &__figure div*/
+  /*&__icon {*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*height: $icon-link-size;*/
+    /*width: $icon-link-size;*/
+    /*background-color: $brand--primary;*/
+    /*border-radius: 50%;*/
+    /*color: $white;*/
+  /*}*/
+
+  /*.footer & {*/
+    /*background-color: $ucd-blue-90;*/
+
+    /*&:hover {*/
+      /*background-color: $ucd-blue-10;*/
+    /*}*/
+  /*}*/
+/*}*/

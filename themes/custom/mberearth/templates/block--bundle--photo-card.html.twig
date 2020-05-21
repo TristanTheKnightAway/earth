@@ -18,22 +18,17 @@
       {{ content.field_image }}
     </div>
     <div class="photo-card__body">
-      {% if content.field_sf_mh_badge_label|render %}
-        <h3 class="photo-card__type category-brand__text--knock-out"><span>{{ content.field_sf_mh_badge_label.0['#context'].value }}</span></h3>
-      {% endif %}
-      <h3 class="photo-card__title category-brand__text">{{ content.field_subtitle.0['#context'].value }}</h3>
+      {#{% if content.field_sf_mh_badge_label|render %}#}
+        {#<h3 class="photo-card__type category-brand__text--knock-out"><span>{{ content.field_sf_mh_badge_label.0['#context'].value }}</span></h3>#}
+      {#{% endif %}#}
+      <h3 class="photo-card__title category-brand__text">{{ content.field_visible_title.0 }}</h3>
       {% if content.field_description|render %}
-        {#<p>{{ content.field_description.0['#context'].value }}</p>#}
         <p>{{ content.field_description.0 }}</p>
       {% endif %}
-
-      {#$context['elements']['content']['field_description']['#object']->values['field_description']['x-default'][0]['value']#}
-      {#$context['elements']['content']['#block_content']->values['field_description']['x-default'][0]['value']#}
-      {#{{  devel_breakpoint() }}#}
-      {% if content.field_call_to_action_phrase|render %}
-        <span class="photo-card__cta category-brand__arrow">{{ content.field_call_to_action_phrase.0['#context'].value }}</span>
+      {% if content.field_link.0['#title']|render %}
+        <span class="photo-card__cta category-brand__arrow">{{ content.field_link.0['#title'] }}</span>
       {% endif %}
     </div>
   </a>
-  {{ content|without('field_subtitle', 'field_image', 'field_link', 'field_description', 'field_badge_label', 'field_call_to_action_phrase') }}
+  {{ content|without( 'field_visible_title', 'field_image', 'field_link', 'field_description', 'field_badge_label', 'field_call_to_action_phrase') }}
 {% endblock %}
