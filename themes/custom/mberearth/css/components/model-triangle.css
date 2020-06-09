@@ -19,11 +19,22 @@
 }
 
 .what-we-learned--model-triangle {
-  color: #17649a;
-  font-size: 1.05em;
-  font-style: bold;
+  color: #665e5e;
+  font-size: 1em;
+  padding: 0em 15%;
 }
 
+.field--name-field-segment-description {
+  color: #261e1e;
+  font-size: 1.05em;
+}
+
+.estimated-time--model-triangle {
+  font-size: 1.2em;
+  color: #0095ff;
+  clear: both;
+  text-align: center;
+}
 
 /* For small screens up to 1136 pixels wide */
 
@@ -66,12 +77,6 @@
     margin: 0 10% 3em 10%;
     padding: 0 1em;
     text-align: center;
-  }
-
-  .estimated-time--model-triangle {
-    font-size: 2em;
-    color: #17649A;
-    clear: both;
   }
 
   .student-work--model-triangle {
@@ -136,12 +141,6 @@
     margin: 0 25% 3em 25%;
     padding: 0 1em;
     text-align: center;
-  }
-
-  .estimated-time--model-triangle {
-    font-size: 2em;
-    color: #17649A;
-    clear: both;
   }
 
   .student-work--model-triangle {

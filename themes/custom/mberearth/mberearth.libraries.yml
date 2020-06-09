@@ -3,6 +3,7 @@ global-styling:
   css:
     base:
       css/base/elements.css: {}
+      css/base/elements-mber-earth.css: {}
       css/base/file.css: {}
     component:
       css/components/announcement.css: {}

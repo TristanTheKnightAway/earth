@@ -4,11 +4,11 @@
   .container__grid {
     display: grid;
     /*grid-template-columns: 35% 65%;*/
-    grid-template-rows: 30% 30% 40%;
+    grid-template-rows: 25% 25% 25% 25%;
     margin-bottom: 2em;
   }
 
-  .grid__row--bottom {
+  .grid__row--top {
     grid-row: 1;
     padding: 0 2em 0;
     /*padding-bottom: .5em;*/
@@ -26,6 +26,12 @@
     padding: 0 2em;
     /*border-left: solid 2px black;*/
     /*border-bottom: solid 2px black;*/
+  }
+
+  .grid__row--bottom {
+    grid-row: 4;
+    padding: 0 2em 0;
+    /*padding-bottom: .5em;*/
   }
 
   .learning-segment-title--model-triangle {
@@ -76,7 +82,7 @@
     align-self: center;
     padding: 0em 2em 0 3em;
     margin-right: 3em;
-    border-left: solid 2px #17649a;
+    border-left: dotted 3px #0095ff;
   }
 
   .grid__bottom {

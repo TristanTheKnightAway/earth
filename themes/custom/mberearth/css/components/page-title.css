@@ -3,8 +3,47 @@
  * Visual styles for MBER Earth's page-title component.
  */
 
-.page-title {
-  font-size: 2em;
-  line-height: 1em;
-  margin: 2em;
+/*.page-title {*/
+  /*font-size: 2em;*/
+  /*line-height: 1em;*/
+  /*border-top: 2px solid black;*/
+  /*border-bottom: 2px solid black;*/
+  /*padding: 1em;*/
+  /*margin: 2em 20%;*/
+  /*overflow-wrap: break-word;*/
+  /*text-align: center;*/
+/*}*/
+
+@media (max-width: 800px) {
+  .page-title {
+    margin: 1em 5%;
+    padding: 1em;
+    color: black;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+}
+@media (max-width: 1136px) and (min-width: 801px) {
+  .page-title {
+    margin: 2em 15%;
+    padding: 1em;
+    color: black;
+    text-align: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 1137px) {
+  .page-title {
+    margin: 2em 20%;
+    padding: 1em;
+    color: black;
+    text-align: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    font-size: 2em;
+  }
 }
