@@ -4,6 +4,10 @@
   text-transform: uppercase;
 }
 
+.change-text__roboto {
+  font-family: "Roboto Condensed",'Raleway',"Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
 .change-text__italics {
   font-style: italic;
 }
@@ -30,8 +34,9 @@
 }
 
 .estimated-time--model-triangle {
-  font-size: 1.2em;
-  color: #0095ff;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #256800;
   clear: both;
   text-align: center;
 }
