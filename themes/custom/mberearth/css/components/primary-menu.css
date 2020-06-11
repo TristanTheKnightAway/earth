@@ -23,7 +23,7 @@
   padding: 0;
   height: auto;
   width: 100%;
-  border-bottom: 3px solid #eb9729;
+  /*border-bottom: 3px solid #eb9729;*/
 }
 .region-primary-menu .menu a {
   color: #000;
@@ -31,9 +31,10 @@
   background: rgba(255, 255, 255, 0.7);
   float: none;
   display: block;
+  text-align: center;
   text-decoration: none;
-  margin: 0;
-  padding: 0.9em 0 0.9em 10px; /* LTR */
+  margin: 0 1px;
+  padding: 0.9em 0 0.9em 0px; /* LTR */
 }
 [dir="rtl"] .region-primary-menu .menu a {
   padding: 0.9em 10px 0.9em 0;
@@ -43,8 +44,8 @@
   background: #f6f6f2;
   background: rgba(255, 255, 255, 0.95);
   /*color: #2eb017;*/
-  /*color: #0095ff;*/
-  color: #cc8120;
+  color: #0095ff;
+  /*color: #cc8120;*/
 }
 .region-primary-menu .menu a:active {
   background: #b3b3b3;

@@ -1,7 +1,14 @@
 /* For small screens up to 800 px wide */
 
-.container__grid .text-formatted {
-  padding: 0 10%;
+@media (max-width: 1200px) {
+  .container__grid .text-formatted {
+    padding: 0;
+  }
+}
+@media (min-width: 1201px) {
+  .container__grid .text-formatted {
+    padding: 0 10%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -9,10 +16,6 @@
     display: grid;
     grid-template-rows: 25% 25% 25% 25%;
     margin-bottom: 2em;
-  }
-
-  .container__grid .text-formatted {
-    padding: 0;
   }
 
   .grid__row--top {
