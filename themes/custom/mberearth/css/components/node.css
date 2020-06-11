@@ -4,8 +4,15 @@
  */
 
 .node__content {
-  font-size: 1.071em;
+  font-size: 1.1em;
   margin-top: 10px;
+}
+
+.node__content h2 {
+  margin: 1em 0 0.5em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25em;
 }
 
 /* View mode teaser styles. */

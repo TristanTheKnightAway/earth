@@ -6,6 +6,7 @@
 .breadcrumb {
   font-family: "Raleway","Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.929em;
+  text-align: center;
 }
 .region-breadcrumb {
   padding: 0 15px 0.25em;

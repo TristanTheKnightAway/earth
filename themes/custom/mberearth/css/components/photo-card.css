@@ -82,7 +82,7 @@
   text-decoration: none;
   color: inherit;
   cursor: pointer;
-  background-color: lightgoldenrodyellow;
+  background-color: #fffce4;
 }
 
 .photo-card:hover img {

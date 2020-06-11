@@ -22,7 +22,8 @@ a.link {
   /*background-image: gradient( linear, left top, right top, color-stop(0, #0095ff), color-stop(1, #2eb017) );*/
   /*color: transparent;*/
 
-  color: #0095ff;
+  /*color: #0095ff;*/
+  color: #3f6eb3;
   /*-webkit-background-clip: text;*/
   /*background-clip: text;*/
   text-shadow: none;

@@ -13,3 +13,26 @@
 [dir="rtl"] .text-formatted ol {
   padding: 0 15px 0.25em 0;
 }
+
+.text-formatted {
+  padding: 0 20%;
+}
+
+@media (max-width: 800px) {
+  .text-formatted {
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 1136px) and (min-width: 801px) {
+  .text-formatted {
+    padding: 0 15%;
+  }
+}
+
+@media (min-width: 1137px) {
+  .text-formatted {
+    padding: 0 20%;
+  }
+}
+
