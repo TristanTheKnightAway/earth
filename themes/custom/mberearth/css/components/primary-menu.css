@@ -9,12 +9,12 @@
   margin: 0 2%;
   padding: 0;
   text-align: left; /* LTR */
-  background: transparent;
+  background: white;
 }
 [dir="rtl"] .region-primary-menu .menu {
   text-align: right;
-  margin-left: 5px; /* This is required to win over specificity of [dir="rtl"] ul.menu */
-  margin-right: 5px; /* This is required to win over specificity of [dir="rtl"] ul.menu */
+  margin-left: 2%; /* This is required to win over specificity of [dir="rtl"] ul.menu */
+  margin-right: 2%; /* This is required to win over specificity of [dir="rtl"] ul.menu */
 }
 .region-primary-menu .menu-item {
   float: left;
@@ -41,11 +41,8 @@
 }
 .region-primary-menu .menu a:hover,
 .region-primary-menu .menu a:focus {
-  background: #f6f6f2;
-  background: rgba(255, 255, 255, 0.95);
-  /*color: #2eb017;*/
+  background: white;
   color: #0095ff;
-  /*color: #cc8120;*/
 }
 .region-primary-menu .menu a:active {
   background: #b3b3b3;
@@ -83,7 +80,7 @@ body:not(:target) .region-primary-menu .menu-toggle {
 }
 body:not(:target) .region-primary-menu .menu-toggle:after {
   content: "";
-  background: url(../../../../misc/icons/ffffff/hamburger.svg) no-repeat;
+  background: url(../../../../../core/misc/icons/ffffff/hamburger.svg) no-repeat;
   background-size: contain;
   width: 22px;
   height: 22px;
@@ -115,7 +112,7 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
 /**
  * Media queries for primary menu.
  */
-@media all and (min-width: 461px) {
+@media all and (min-width: 761px) {
   /*@media all and (min-width: 461px) and (max-width: 900px) {*/
   .region-primary-menu .menu {
     text-align: center;
@@ -126,8 +123,6 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
   }
   .region-primary-menu .menu-item,
   body:not(:target) .region-primary-menu .menu-item {
-    /*float: left; !* LTR *!*/
-    /*margin-right: 5px; !* LTR *!*/
     margin-right: 0; /* LTR */
     padding: 0;
     display: inline-block;
@@ -138,7 +133,6 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
   [dir="rtl"] .region-primary-menu .menu-item,
   [dir="rtl"] body:not(:target) .region-primary-menu .menu-item {
     float: right;
-    /*margin-left: 5px;*/
     margin-left: 0;
     margin-right: 0;
   }
@@ -152,9 +146,6 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
   .region-primary-menu .menu a {
     float: none;
     display: block;
-    /*border-radius: 8px;*/
-    /*margin-bottom: 5px;*/
-    /*padding: 0.9em 5px;*/
   }
   /* This is required to win over specificity of the global [dir="rtl"] .region-primary-menu .menu a */
   [dir="rtl"] .region-primary-menu .menu a {
@@ -165,52 +156,18 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
   }
 }
 
-/*@media all and (min-width: 901px) {*/
-  /*.region-primary-menu .block-menu .menu {*/
-    /*font-size: 0.929em;*/
-    /*margin: 0;*/
-    /*padding: 0 15px;*/
-  /*}*/
-  /*.region-primary-menu .menu-item,*/
-  /*body:not(:target) .region-primary-menu .menu-item {*/
-    /*float: left; !* LTR *!*/
-    /*list-style: none;*/
-    /*padding: 0 1px;*/
-    /*margin: 0 1px;*/
-    /*width: auto;*/
-    /*height: auto;*/
-    /*overflow: visible;*/
-  /*}*/
-  /*[dir="rtl"] .region-primary-menu .menu-item,*/
-  /*[dir="rtl"] body:not(:target) .region-primary-menu .menu-item {*/
-    /*float: right;*/
-  /*}*/
-  /*.region-primary-menu .menu a {*/
-    /*float: left; !* LTR *!*/
-    /*padding: 0.7em 0.8em;*/
-    /*margin-bottom: 0;*/
-    /*border-bottom-left-radius: 0;*/
-    /*border-bottom-right-radius: 0;*/
-  /*}*/
-  /*[dir="rtl"] .region-primary-menu .menu a {*/
-    /*float: right;*/
-    /*padding: 0.7em 0.8em;*/
-  /*}*/
-  /*.featured .region-primary-menu .menu-item a:active,*/
-  /*.featured .region-primary-menu .menu-item a.is-active {*/
-    /*background: #f0f0f0;*/
-    /*background: rgba(240, 240, 240, 1);*/
-  /*}*/
-  /*body:not(:target) .region-primary-menu .menu-toggle {*/
-    /*display: none;*/
-  /*}*/
-/*}*/
-
+@media (max-width: 761px) {
+  .region-primary-menu .menu a:hover,
+  .region-primary-menu .menu a:focus {
+    background: lightgrey;
+    color: #0095ff;
+  }
+}
 /**
  * Ensures that the open mobile menu hides when the screen dimensions become
- * 461px or wider.
+ * 761px or wider.
  */
-@media all and (min-width: 461px) {
+@media all and (min-width: 761px) {
   body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu-toggle--hide {
     display: none;
   }
