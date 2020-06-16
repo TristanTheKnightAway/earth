@@ -18,6 +18,12 @@
   vertical-align: top;
 }
 
+.site-branding__text a {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+
+
 @media all and (min-width: 461px) {
   .site-branding__text {
     margin-bottom: 1.857em;

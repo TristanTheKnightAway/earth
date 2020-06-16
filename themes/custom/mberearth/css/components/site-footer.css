@@ -237,6 +237,8 @@
 
 
 .footer--image {
-  background: url(../../images/tropical-waterfall-wide4.jpg) no-repeat center center fixed;
+  /*background: url(../../images/tropical-waterfall-wide4.jpg) no-repeat center center fixed;*/
+  background-size: cover;
+  background: url(../../images/rainbow-gum-tree-3.jpeg) top center no-repeat fixed;
   background-size: cover;
 }

@@ -14,15 +14,16 @@
 
 @media all and (min-width: 461px) {
   .region-header .block {
-    float: right; /* LTR */
+    /*float: none; !* LTR *!*/
     margin-top: 0.357em;
   }
   [dir="rtl"] .region-header .block {
-    float: left;
+    /*float: left;*/
   }
   .region-header .site-branding {
-    float: left; /* LTR */
-    /* margin-bottom: 1.857em; */
+    float: none;
+    width: 100%;
+    text-align: center;
   }
   [dir="rtl"] .region-header .site-branding {
     float: right;
@@ -203,6 +204,7 @@
 }
 
 .header--image {
-  background: url(../../images/WaipooFalls.jpg) top center no-repeat fixed;
+  /*background: url(../../images/WaipooFalls.jpg) top center no-repeat fixed;*/
+  background: url(../../images/rainbow-gum-tree-3.jpeg) top center no-repeat fixed;
   background-size: cover;
 }
