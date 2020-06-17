@@ -70,8 +70,8 @@
 
 .photo-card__title:hover {
   color: #256800;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-top: 2px solid #256800;
+  border-bottom: 2px solid #256800;
 }
 
 .photo-card__cta {
