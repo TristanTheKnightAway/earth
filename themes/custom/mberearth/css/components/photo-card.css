@@ -68,15 +68,25 @@
  /*@include heading--highlight();*/
  }
 
+.photo-card__title:hover {
+  color: #256800;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
 .photo-card__cta {
- /*@include font-size($font-size--large);*/
    display: inline-block;
    margin-top: $spacer;
    width: 90%;
    color: #514D43;
    font-weight: bold;
    text-align: center;
+   font-size: 1.1em;
  }
+
+.photo-card__cta:hover {
+  color: #256800;
+}
 
 .photo-card:hover {
   text-decoration: none;
